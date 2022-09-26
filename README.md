@@ -29,7 +29,7 @@ Trello est un outil de gestion de projet en ligne, lancé en septembre 2011 et i
 
  CAMARA MAMADOU : GESTION DE PROJET / Database Manager
 
- COSTA IVO : GESTION DE PROJET / CONCEPTION ( Maquette,Uses cases, analyse des besoins)
+ COSTA IVO : GESTION DE PROJET / CONCEPTION ( Maquette,Uses cases, analyse des besoins) / Devellopeur
 
  KEITA NASSOU : GESTION DE PROJET / CONCEPTION ( Maquette,Uses cases, analyse des besoins) 
 
