@@ -20,6 +20,11 @@ app.get('/posts', function (req, res) {
     res.send('posts');
 });
 
+
+app.get('/home', function (req, res) {
+    res.send('bienvenue a vous');
+});
+
 // route numero 2
 
 app.get('/postss', function (req, res) {

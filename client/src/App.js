@@ -1,11 +1,14 @@
 import React from 'react'
+import Routes from "./Components/Routes"
+import Profil from './Pages/Profil';
 
 const App = () => {
   return (
     <div>
-        
-        <h1>App</h1>
-        
+
+    <Routes/>  
+    
+
     </div>
   )
 }
