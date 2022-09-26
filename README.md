@@ -8,10 +8,10 @@ Les produits seront des produits pré-périmés qu'il faudra manger le jour mêm
 
 ## ARCHITECTURE APPLICATION : MERN STACK PROJECT
 
-M   MongoDB Database
-E   Express Server
-R   ReactJs for Users Interface ( Front-End)
-N   NodeJs for Back-end
+#### M   MongoDB Database
+#### E   Express Server
+#### R   ReactJs for Users Interface ( Front-End)
+#### N   NodeJs for Back-end
 
 STACK PROJECT
 
