@@ -3,16 +3,9 @@ import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from 'cors';
 
-
-
-
 // 2/ import des routes
 
 import postRoutes from './routes/posts.js'
-
-
-
-
 
 // Comme toute express application , nous allons initailiser l'app
 
@@ -48,9 +41,9 @@ app.use(cors());
 // par la suite aller dans Network adress et appuyer sur add IP adress , mettre ladress IP courante pour avoir acces a la BD de l'ip du pc.
 
 // Aller voir les clusters et attendre que le cluster soit deployer avant de pouvoir le connecter
-// une fois le cluster deployer , appuyer sur connecter fin de connecter l'application a la BDD mongo via le lien.
+// une fois le cluster deployer , appuyer sur connecter fin de connecter l'application a la BDD mongo via le lien mongo
 
-const CONNECTION_URL = 'mongodb+srv://cheapeats:cheapeats12AA@cluster0.fcsgvx0.mongodb.net/?retryWrites=true&w=majority';
+const CONNECTION_URL = 'mongodb+srv://cheapeats:cheapeats12AA@cluster1.xadydhi.mongodb.net/?retryWrites=true&w=majority';
 
 // init le port etant localhost 5001 ou process.enc.port une fois déployé sur heroku.
 
@@ -60,7 +53,7 @@ const PORT = process.env.PORT || 5001;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true , useUnifiedTopology: true})
     .then(() => app.listen(PORT, () => console.log(`Serveur est lancé dans le port : ${PORT}`)))
-    .catch((error) => console.log("Connexion au serveur échoué"));
+    .catch((error) => console.log(error.message));
 
 // dernier setup de mongo pour sasurrer qu'il ya pas de warning au niveau de la console
 
