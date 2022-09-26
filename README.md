@@ -23,15 +23,15 @@ Trello est un outil de gestion de projet en ligne, lancé en septembre 2011 et i
 
 ## CORE TEAM DEVELLOPEMENT
 
-#### MEKOUAR OTHMAN : DEVELLOPER FULL STACK
+ MEKOUAR OTHMAN : DEVELLOPER FULL STACK
 
-#### SECK FATOU : CHEF DE PROJET / GESTION PROJET AGILE ( TRELLO)
+ SECK FATOU : CHEF DE PROJET / GESTION PROJET AGILE ( TRELLO)
 
-#### CAMARA MAMADOU : GESTION DE PROJET / Database Manager
+ CAMARA MAMADOU : GESTION DE PROJET / Database Manager
 
-#### COSTA IVO : GESTION DE PROJET / CONCEPTION ( Maquette,Uses cases, analyse des besoins)
+ COSTA IVO : GESTION DE PROJET / CONCEPTION ( Maquette,Uses cases, analyse des besoins)
 
-#### KEITA NASSOU : GESTION DE PROJET / CONCEPTION ( Maquette,Uses cases, analyse des besoins) 
+ KEITA NASSOU : GESTION DE PROJET / CONCEPTION ( Maquette,Uses cases, analyse des besoins) 
 
 
 ## Date de sortie du MVP de CHEAPEATS
