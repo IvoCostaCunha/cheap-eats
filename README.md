@@ -1,44 +1,70 @@
-# BIENVENUE CHEZ "CHEAPEATS" .
+# Getting Started with Create React App
 
-### CHEAPEATS signifie manger pas cher , et donc grâce à CHEAPEATS vous pourrez avoir 3 fois plus de courses au même prix.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-CHEAPEATS est une application qui permet de mettre en relation des particuliers ou encore des grandes surface afin d'offrir aux personnes en difficulté financiere.
-Grâce à CHEAPEATS , les clients pourront avoir accès à des aliments à prix très bas battant toute concurence.
-Les produits seront des produits pré-périmés qu'il faudra manger le jour même ou dans les jours qui suivent et ce pour un prix réduit à plus de 50%.
+## Available Scripts
 
-## ARCHITECTURE APPLICATION : MERN STACK PROJECT
+In the project directory, you can run:
 
-#### M   MongoDB Database
-#### E   Express Server
-#### R   ReactJs for Users Interface ( Front-End)
-#### N   NodeJs for Back-end
+### `npm start`
 
-STACK PROJECT
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## LOGICIEL pour Gestion de PROJET
+### `npm test`
 
-Trello est un outil de gestion de projet en ligne, lancé en septembre 2011 et inspiré par la méthode Kanban de Toyota. Il repose sur une organisation des projets en planches listant des cartes, chacune représentant des tâches. Les cartes sont assignables à des utilisateurs et sont mobiles d'une planche à l'autre, traduisant leur avancement.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-## CORE TEAM DEVELLOPEMENT
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
- MEKOUAR OTHMAN : DEVELLOPER FULL STACK
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
- SECK FATOU : CHEF DE PROJET / GESTION PROJET AGILE ( TRELLO)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
- CAMARA MAMADOU : GESTION DE PROJET / Database Manager
+### `npm run eject`
 
- COSTA IVO : GESTION DE PROJET / CONCEPTION ( Maquette,Uses cases, analyse des besoins) / Devellopeur
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
- KEITA NASSOU : GESTION DE PROJET / CONCEPTION ( Maquette,Uses cases, analyse des besoins) 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Date de sortie du MVP de CHEAPEATS
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Nous vous donnons rendez-vous le 18 OCTOBRE 2022 pour la présentation du Minimum Viable Product de CHEAPEATS
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
