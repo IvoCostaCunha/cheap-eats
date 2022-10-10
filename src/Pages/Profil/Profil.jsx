@@ -1,8 +1,16 @@
 import React from 'react'
+import Header from '../../Components/Header/Header'
+
 
 const Profil = () => {
     return (
-        <div>Profil</div>
+        <div>
+
+            <Header />
+
+
+        </div>
+
     )
 }
 

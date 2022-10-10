@@ -11,8 +11,11 @@ import Profil from './Pages/Profil/Profil.jsx';
 
 
 function App() {
+
+
   return (
-    <div className="app">
+   <div>
+     
 
 
 <BrowserRouter>

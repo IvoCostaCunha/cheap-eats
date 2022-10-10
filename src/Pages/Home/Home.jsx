@@ -1,13 +1,33 @@
 import React from 'react'
 import Header from '../../Components/Header/Header'
+import Login from '../../Components/Login/Login';
+import Story from '../../Components/Story/Story'
 
 const Home = () => {
-    return (
-        <div>
 
-            <Header />
+    const user = null;
+
+    return (
+
+
+        <div className="app">
+            {!user ? (
+
+                <Login />
+
+            ) : (
+
+                <>
+
+                    <Home />
+                    <Header />
+                    <Story />
+
+                </>)}
 
         </div>
+
+
     )
 }
 
