@@ -18,7 +18,6 @@ const Header = () => {
                     <li>Demo App</li>
                     <li>Core Team Dev</li>
                     <li>Sign in</li>
-
                     <li>Sign Up</li>
 
                 </ul>
