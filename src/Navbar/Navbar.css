@@ -1,0 +1,12 @@
+li{
+
+    font-size: 20px;
+    color: aliceblue;
+    list-style-type : none;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+}

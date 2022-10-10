@@ -1,0 +1,38 @@
+.header__droit > img{
+
+    height: 300px;
+    margin: 0;
+}
+
+.header {
+
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+li{
+
+    font-size: 20px;
+    color: aliceblue;
+    list-style-type : none;
+    margin: 30px;
+
+
+    
+    
+}
+
+.navbar ul{
+
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar{
+
+    margin-top: 120px;
+}
