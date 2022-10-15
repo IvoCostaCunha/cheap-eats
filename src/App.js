@@ -1,40 +1,41 @@
-import './App.css';
-import Home from './Pages/Home/Home.jsx';
-import CoreTeamDev from './Pages/CoreTeamDev/CoreTeamDev.jsx';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import DemoApp from './Pages/DemoApp/DemoApp.jsx';
-import Roadmap from './Pages/Roadmap/Roadmap.jsx';
-import Profil from './Pages/Profil/Profil.jsx';
-
-
-
-
+import { Container, Row, Col } from "react-bootstrap";
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
+import ProtectedRoute from "./components/ProtectedRoute";
+import { UserAuthContextProvider } from "./context/UserAuthContext";
+import PostProducts from "./components/PostProducts/PostProducts";
+import Chat from "./components/chat/Chat";
 
 function App() {
-
-
   return (
-   <div>
-     
+    <Container style={{ width: "400px" }}>
+      <Row>
+        <Col>
+          <UserAuthContextProvider>
+            <Routes>
+              <Route
+                path="/home"
+                element={
+                  <ProtectedRoute>
+                    <Home />
+                  </ProtectedRoute>
+                }
+              />
+              <Route path="/" element={<Login />} />
+              <Route path="/signup" element={<Signup />} />
+              <Route path="/PostProducts" element={<PostProducts />} />
+              <Route path="/PostProducts" element={<PostProducts />} />
+              <Route path="/Chat" element={<Chat />} />
 
 
-<BrowserRouter>
-
-<Routes>
-  <Route path="/Home" element={<Home />} />
-  <Route path="/DemoApp" element={<DemoApp />} />
-  <Route path="/CoreTeamDev" element={<CoreTeamDev />} />
-  <Route path="/Roadmap" element={<Roadmap />} />
-  <Route path="/Profil" element={<Profil />} />
-
-
- 
-  <Route path="*" element={<Home />} />
-
-</Routes>
-</BrowserRouter>
-     
-    </div>
+            </Routes>
+          </UserAuthContextProvider>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

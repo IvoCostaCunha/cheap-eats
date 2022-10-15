@@ -21,7 +21,7 @@ STACK PROJECT
 
 ## VERSION PRESENTE LE 19 OCTOBRE
 
-Nous allons presenter un MVP de notre application contenant seulement un front end fonctionnel de l'application montrnant la plupart des fonctionnalités.
+Nous allons presenter un MVP de notre application contenant seulement un front end avec Firebase Authentification ( Formulaire rapide ainsi qu'une authentification via compte google) de l'application montrnant la plupart des fonctionnalités.
 
 
 

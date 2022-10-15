@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600;700&family=Libre+Baskerville&family=Radio+Canada:wght@700&display=swap');
+
+body {
+  background-color: #10081e;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+  opacity: 20px;
+  text-align: center;
+}
+
+.espace{
+
+  margin-top: 0px;
+}
+
+.endd{
+
+  border-radius: 30px;
+  color: white;
+  
+}
+
+.seco{
+
+  color: whitesmoke;
+}
+
+.cacposts{
+  display: flex;
+
+  margin: 1.5rem 0;}
+
+.logo{
+
+  margin-left: -50px;
+}
+
+.cen{
+
+  text-align: center;
+  margin-left: 100px;
+}
+
+.end{
+
+  color: whitesmoke;
+
+}
+
+
+
+.box {
+  border: 3px solid inherit;
+  background-color: inherit;
+  margin-left: -5px;
+  font-size: 20px;
+  color: whitesmoke;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Radio Canada', sans-serif;
+}
+
+.g-btn {
+  width: 100% !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 15px !important;
+}
+.g-btn > div,
+.g-btn > div > svg {
+  width: 40px !important;
+  height: 38px !important;
+}
+
+.white{
+
+  border-color: #221f27;
+
+}

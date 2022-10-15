@@ -1,19 +1,21 @@
-import firebase from "firebase"
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import {getFirestore} from "firebase/firestore"
+
 const firebaseConfig = {
-    apiKey: "AIzaSyCZq7wfSIRwA1Y7UTvS4KXaQ0RNS2bTefg",
-    authDomain: "cheapeat-4453a.firebaseapp.com",
-    projectId: "cheapeat-4453a",
-    storageBucket: "cheapeat-4453a.appspot.com",
-    messagingSenderId: "903983794950",
-    appId: "1:903983794950:web:0523f9701a501097936c87",
-    measurementId: "G-2MZTPE4ZKT"
-  };
-  
+  apiKey: "AIzaSyBPJ7Bk8OGu90vb9ddb7EkXdYHX6xgcyxg",
+  authDomain: "cheapeat-8fb79.firebaseapp.com",
+  projectId: "cheapeat-8fb79",
+  storageBucket: "cheapeat-8fb79.appspot.com",
+  messagingSenderId: "21181822250",
+  appId: "1:21181822250:web:ac3232de588ce6d89b9a53",
+  measurementId: "G-VH0SNRH632"
+};
 
-  const firebaseApp = firebase.initializeApp(firebaseConfig);
-  const db = firebaseApp.firestore();
+// Initialize Firebase
 
-  const provider = new firebase.auth.GoogleAutheProvider();
+const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
+export const db = getFirestore(app);
 
-  export { auth , provider};
-  export default db;
+export default app;
