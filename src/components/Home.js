@@ -60,7 +60,7 @@ const Home = () => {
 
       <div className="d-grid gap-2 margin">
         <Button variant="primary" onClick={handlePostProducts}>
-          Post Products
+          Vendre des produits
         </Button>
       </div>
 
@@ -68,7 +68,7 @@ const Home = () => {
 
       <div className="d-grid gap-2">
         <Button variant="primary" onClick={handleChat}>
-          Chat With Others Users
+          Mise en relation avec un fournisseur
         </Button>
       </div>
 
@@ -76,7 +76,7 @@ const Home = () => {
 
       <div className="d-grid gap-2">
         <Button variant="primary" onClick={handleBuyProduct}>
-          Buy Products
+          Marketplace Alimentaire
         </Button>
       </div>
 

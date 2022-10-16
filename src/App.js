@@ -8,6 +8,8 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import { UserAuthContextProvider } from "./context/UserAuthContext";
 import PostProducts from "./components/PostProducts/PostProducts";
 import Chat from "./components/chat/Chat";
+import BuyProduct from  "./components/buyProduct/BuyProduct";
+
 
 function App() {
   return (
@@ -29,6 +31,12 @@ function App() {
               <Route path="/PostProducts" element={<PostProducts />} />
               <Route path="/PostProducts" element={<PostProducts />} />
               <Route path="/Chat" element={<Chat />} />
+              <Route path="/Chat" element={<Chat />} />
+              <Route path="/BuyProduct" element={<BuyProduct />} />
+              <Route path="/PostProducts" element={<PostProducts />} />
+
+
+              
 
 
             </Routes>

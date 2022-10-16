@@ -1,7 +1,12 @@
 import React from 'react'
 import "./chat.css"
 
+
+
 const Chat = () => {
+
+
+
     return (
         <div>
 
@@ -9,6 +14,9 @@ const Chat = () => {
                 chat
 
             </h1>
+
+
+
         </div>
     )
 }
