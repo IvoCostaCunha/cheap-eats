@@ -25,12 +25,13 @@ function BuyProduct() {
                         <div className="postHeader">
                             <div className="title">
                                 <h1><strong>Nouvelle annonce !</strong></h1>
-                                <h2>{post.title}</h2>
-                                <h2>{post.postText}</h2>
-                                <h3>{post.prix}</h3>
-                                <h4>{post.dateper}</h4>
+                                <br />
+                                <h2><strong>Titre de l'annonce :</strong> {post.title}</h2>
+                                <h2><strong>Remarques du vendeur : </strong>{post.postText}</h2>
+                                <h3><strong>Prix du panier : </strong>{post.prix}</h3>
+                                <h4><strong>Date de péremption minimale : </strong>{post.dateper}</h4>
 
-                                <h5>Mis en vente par {post.id}</h5>
+                                <h5><strong>Mis en vente par : </strong> {post.id}</h5>
 
                             </div>
 
@@ -39,7 +40,7 @@ function BuyProduct() {
                     </div>
                 );
             })}
-        </div>
+        </div >
     );
 }
 
