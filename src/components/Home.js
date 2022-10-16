@@ -23,7 +23,7 @@ const Home = () => {
 
   const handleChat = async () => {
    
-      navigate("/chat");
+      navigate("/MainChat");
    
     }
 

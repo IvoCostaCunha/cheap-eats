@@ -10,11 +10,8 @@ const Chat = () => {
     return (
         <div>
 
-            <h1>
-                chat
 
-            </h1>
-
+            Chat
 
 
         </div>
