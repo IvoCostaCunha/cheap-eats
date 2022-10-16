@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import {getFirestore} from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBqaFjZqyCAx0oB6w4xNcpoYM4kZBQTfSM",
-  authDomain: "cheapeat-e3946.firebaseapp.com",
-  projectId: "cheapeat-e3946",
-  storageBucket: "cheapeat-e3946.appspot.com",
-  messagingSenderId: "702524261903",
-  appId: "1:702524261903:web:d76cb8146752510420457a",
-  measurementId: "G-Q7K0SDGTKZ"
+  apiKey: "AIzaSyAJTNDlhZ9F0FSYBUs2EStkhYN9MpgIORA",
+  authDomain: "cheapeat1999.firebaseapp.com",
+  projectId: "cheapeat1999",
+  storageBucket: "cheapeat1999.appspot.com",
+  messagingSenderId: "1031745457107",
+  appId: "1:1031745457107:web:ee756d4c2df327fa9bfd26",
+  measurementId: "G-8PLCLW8BTP"
 };
 
 // Initialize Firebase

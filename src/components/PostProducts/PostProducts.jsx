@@ -13,6 +13,10 @@ function CreatePost({ }) {
     const [postText, setPostText] = useState("");
     const [prix, setprix] = useState("");
     const [dateper, setDateper] = useState("");
+    const [nbaliments, setNbaliments] = useState("");
+    const [enuma, setEnuma] = useState("");
+
+
 
 
     const postsCollectionRef = collection(db, "posts");
@@ -24,6 +28,8 @@ function CreatePost({ }) {
             postText,
             prix,
             dateper,
+            nbaliments,
+            enuma,
             author: { name: auth.currentUser.displayName, id: auth.currentUser.uid },
         });
         navigate("/BuyProduct");
@@ -35,14 +41,24 @@ function CreatePost({ }) {
             <div className="cpContainer">
 
 
-
+                <h1>MARKETPLACE</h1>
 
                 <div className="inputGp">
-                    <label>Nombre d'aliments à mettre en vente</label>
+                    <label>Nombre d'aliments</label>
                     <input
-                        placeholder="Donnez le nombre exact d'aliment"
+                        placeholder="Donnez le nombre exact d'aliments"
                         onChange={(event) => {
-                            setTitle(event.target.value);
+                            setNbaliments(event.target.value);
+                        }}
+                    />
+                </div>
+
+                <div className="inputGp">
+                    <label> Enumération des aliments</label>
+                    <input
+                        placeholder="Aliment1,Aliment2,..."
+                        onChange={(event) => {
+                            setEnuma(event.target.value);
                         }}
                     />
                 </div>

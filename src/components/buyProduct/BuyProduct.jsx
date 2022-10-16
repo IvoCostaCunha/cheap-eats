@@ -26,12 +26,16 @@ function BuyProduct() {
                             <div className="title">
                                 <h1><strong>Nouvelle annonce !</strong></h1>
                                 <br />
-                                <h2><strong>Titre de l'annonce :</strong> {post.title}</h2>
+                                <h2><strong>Nombre de produits :</strong> {post.nbaliments}</h2>
+                                <h4><strong>Listes des produits </strong>{post.enuma}</h4>
+
                                 <h2><strong>Remarques du vendeur : </strong>{post.postText}</h2>
                                 <h3><strong>Prix du panier : </strong>{post.prix}</h3>
                                 <h4><strong>Date de péremption minimale : </strong>{post.dateper}</h4>
 
                                 <h5><strong>Mis en vente par : </strong> {post.id}</h5>
+
+                                <a href="/Chat"><strong>Contacter le Vendeur</strong></a>
 
                             </div>
 

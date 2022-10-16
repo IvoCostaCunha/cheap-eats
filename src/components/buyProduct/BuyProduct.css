@@ -1,11 +1,16 @@
-h1,strong{
+strong{
 
-    color: blue
+    color: rgb(13, 13, 62)
+}
+
+h1{
+
+    color: rgb(136, 136, 174)
 }
 
 h2,h3,h4,h5{
 
-    color: black;
+    color: rgb(17, 7, 40);
     font-size: 20px;
 }
 
@@ -13,3 +18,101 @@ body{
 
     margin: auto;
 }
+
+a{
+    color: rgb(19, 6, 46);
+   
+}
+
+*{
+
+    margin :  20 20 20 20 ;
+    margin-top: 4 rem;
+
+}
+
+
+.createPostPage {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: grid;
+    place-items: center;
+  }
+  
+  .cpContainer {
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color: inherit;
+    border-radius: 12px;
+    color: rgb(9, 8, 8);
+    display: flex;
+    flex-direction: column;
+    opacity: 20%;
+  }
+
+
+  
+  .cpContainer h1 {
+    text-align: center;
+    color: #433468;
+    font-family: sans-serif;
+  }
+  
+  .cpContainer label {
+    font-size: 20px;
+    background-color: inherit;
+   
+    
+  }
+  .cpContainer .inputGp {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: #433468;
+    
+    
+  }
+  
+  .inputGp input,
+  .inputGp textarea {
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    color: #433468;
+    
+
+  }
+  
+  .inputGp input {
+    height: 40px;
+    color: #433468;
+
+  }
+  .inputGp textarea {
+    height: 150px;
+  }
+  
+  .cpContainer button {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #433468;
+  }
+  input,
+  textarea {
+    margin-top: 5px;
+  }
+  
+  .loginPage {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
