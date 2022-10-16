@@ -14,6 +14,11 @@ h2,h3,h4,h5{
     font-size: 20px;
 }
 
+.contactvendeur{
+
+    border: solid blue 1px;
+}
+
 body{
 
     margin: auto;
@@ -48,7 +53,6 @@ a{
     color: rgb(9, 8, 8);
     display: flex;
     flex-direction: column;
-    opacity: 20%;
   }
 
 
@@ -69,7 +73,7 @@ a{
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    color: #433468;
+    color: #ffffff;
     
     
   }
