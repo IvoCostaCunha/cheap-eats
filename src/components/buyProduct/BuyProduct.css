@@ -8,10 +8,14 @@ h1{
     color: rgb(136, 136, 174)
 }
 
-h2,h3,h4,h5{
+h2,h3,h5{
 
-    color: rgb(17, 7, 40);
+    color: rgb(44, 32, 55);
     font-size: 20px;
+}
+
+h4{
+  color:rgb(124, 29, 29)
 }
 
 .contactvendeur{
@@ -25,7 +29,7 @@ body{
 }
 
 a{
-    color: rgb(19, 6, 46);
+    color: rgb(166, 100, 227);
    
 }
 

@@ -41,7 +41,6 @@ function CreatePost({ }) {
             <div className="cpContainer">
 
 
-                <h1>MARKETPLACE</h1>
 
                 <div className="inputGp">
                     <label>Nombre d'aliments</label>
