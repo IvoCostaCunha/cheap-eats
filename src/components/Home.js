@@ -39,6 +39,15 @@ const Home = () => {
       navigate("/PostProducts");
    
     }
+
+    const handleContact = async () => {
+   
+      navigate("/Contact");
+   
+    }
+
+
+    
     
     
     
@@ -77,6 +86,11 @@ const Home = () => {
       <div className="d-grid gap-2">
         <Button variant="primary" onClick={handleBuyProduct}>
           Marketplace Alimentaire
+        </Button>
+
+<br/>
+        <Button variant="primary" onClick={handleContact}>
+          Nous contacter
         </Button>
       </div>
 
