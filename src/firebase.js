@@ -3,14 +3,15 @@ import { getAuth } from "firebase/auth";
 import {getFirestore} from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAJTNDlhZ9F0FSYBUs2EStkhYN9MpgIORA",
-  authDomain: "cheapeat1999.firebaseapp.com",
-  projectId: "cheapeat1999",
-  storageBucket: "cheapeat1999.appspot.com",
-  messagingSenderId: "1031745457107",
-  appId: "1:1031745457107:web:ee756d4c2df327fa9bfd26",
-  measurementId: "G-8PLCLW8BTP"
+  apiKey: "AIzaSyCW8S4GY6_OwJaJv4SyuHwJt5iQWa4Ju7o",
+  authDomain: "cheapeatpresentation.firebaseapp.com",
+  projectId: "cheapeatpresentation",
+  storageBucket: "cheapeatpresentation.appspot.com",
+  messagingSenderId: "197966642426",
+  appId: "1:197966642426:web:f445b79ede8b701681dd43",
+  measurementId: "G-LHZWHBML9P"
 };
+
 
 // Initialize Firebase
 
@@ -18,5 +19,7 @@ const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 
 export const db = getFirestore(app);
+
+
 
 export default app;

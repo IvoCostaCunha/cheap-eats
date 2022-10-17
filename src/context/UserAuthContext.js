@@ -15,18 +15,30 @@ const userAuthContext = createContext();
 export function UserAuthContextProvider({ children }) {
   const [user, setUser] = useState({});
 
+  // connexion
+
   function logIn(email, password) {
     return signInWithEmailAndPassword(auth, email, password);
   }
+
+  // sinscire 
+
+
   function signUp(email, password) {
     return createUserWithEmailAndPassword(auth, email, password);
   }
+
+  // se deconnecter 
+
   function logOut() {
     return signOut(auth);
     window.location.pathname="/login"
     localStorage.clear();
     setUser(false);
   }
+
+  // connexion via google 
+  
   function googleSignIn() {
     const googleAuthProvider = new GoogleAuthProvider();
     return signInWithPopup(auth, googleAuthProvider);
