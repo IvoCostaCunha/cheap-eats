@@ -23,10 +23,6 @@ h4{
     border: solid blue 1px;
 }
 
-body{
-
-    margin: auto;
-}
 
 a{
     color: rgb(166, 100, 227);
@@ -43,7 +39,7 @@ a{
 
 .createPostPage {
     width: 100%;
-    height: calc(100vh - 80px);
+    height: 100%;
     display: grid;
     place-items: center;
   }

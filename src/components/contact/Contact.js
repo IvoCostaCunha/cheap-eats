@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
-import 'App.css';
+import './contact.css';
 import TrackVisibility from 'react-on-screen';
+
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -26,7 +26,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("http://localhost:3000/contact", {
+    let response = await fetch("http://localhost:5001/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -45,20 +45,12 @@ export const Contact = () => {
 
   return (
     <section className="contact" id="connect">
+
+      <h1> Contacter CHEAPEAT</h1>
       <Container>
-        <Row className="align-items-center">
-          <Col size={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
-              }
-            </TrackVisibility>
-          </Col>
-          <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2> Faites Vos propositions pour le futur de CHEAPEAT</h2>
                 <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
@@ -87,9 +79,9 @@ export const Contact = () => {
                 </form>
               </div>}
             </TrackVisibility>
-          </Col>
-        </Row>
       </Container>
     </section>
   )
 }
+
+export default Contact

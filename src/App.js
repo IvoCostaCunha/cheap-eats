@@ -8,7 +8,9 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import { UserAuthContextProvider } from "./context/UserAuthContext";
 import PostProducts from "./components/PostProducts/PostProducts";
 import BuyProduct from  "./components/buyProduct/BuyProduct";
-import MainChat from "./components/chat/MainChat";
+import Contact  from "./components/contact/Contact";
+import Chat  from "./components/Chat";
+
 
 
 
@@ -31,9 +33,14 @@ function App() {
               <Route path="/signup" element={<Signup />} />
               <Route path="/PostProducts" element={<PostProducts />} />
               <Route path="/PostProducts" element={<PostProducts />} />
-              <Route path="/MainChat" element={<MainChat />} />
               <Route path="/BuyProduct" element={<BuyProduct />} />
               <Route path="/PostProducts" element={<PostProducts />} />
+              <Route path="/Contact" element={<Contact />} />
+              <Route path="/Chat" element={<Chat />} />
+
+
+
+              
 
 
 
