@@ -1,7 +1,9 @@
-h1{
+.chat h1{
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    margin-top: 300px;
 
-    color:rgb(238, 224, 224);
+    color:white;
 
 }

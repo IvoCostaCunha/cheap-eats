@@ -35,7 +35,7 @@ function BuyProduct() {
 
                                 <h5><strong>Mis en vente par : </strong> {post.id}</h5>
 
-                                <a classname="contactvendeur" href="/MainChat">Contacter le Vendeur</a>
+                                <a classname="contactvendeur" href="/Chat">Contacter le Vendeur</a>
 
                             </div>
 
