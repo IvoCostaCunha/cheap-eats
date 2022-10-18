@@ -37,16 +37,21 @@ export const Contact = () => {
     let result = await response.json();
     setFormDetails(formInitialDetails);
     if (result.code == 200) {
-      setStatus({ succes: true, message: 'Message sent successfully'});
+      setStatus({ succes: true, message: 'Message envoyé avec succès'});
     } else {
-      setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
+      setStatus({ succes: false, message: 'Veuilez ressayer plus tard'});
     }
   };
 
   return (
     <section className="contact" id="connect">
 
-      <h1> Contacter CHEAPEAT</h1>
+      <h1> Contact Support</h1>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
       <Container>
             <TrackVisibility>
               {({ isVisible }) =>
